@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Replace</title>
+</head>
+<body>
+    <script>
+        /*
+        var declaracao = "A aluna, portador do RG NumRG, CPF NumCPF, estuda na FIAP"
+        var nome = prompt("Qual seu nome?")
+        var rg = prompt("Qual o númerod o seu RG?")
+        var cpf = prompt("Qaul o número do seu CPF?")
+        
+        var declaracaoPronta = declaracao.replace("aluna", nome). replace("NumRG", rg).replace("NumCPF", cpf)
+        
+        console.log(declaracaoPronta)
+*/
+        /*
+        var novaDeclaracao = `O ${nome}, RG ${rg}, CPF ${cpf}, estuda na FIAP.`
+        console.log(novaDeclaracao)
+        */
+
+        var cliente = prompt("Qual seu nome completo?")
+        var posicao = cliente.indexOf(" ")
+        var primeiroNome = cliente.substr(0, posicao)
+
+        alert("Obrigado, " + primeiroNome + " por utilizar os nossos serviços")
+        
+    </script>
+</body>
+</html>
