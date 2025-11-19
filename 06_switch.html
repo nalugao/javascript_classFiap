@@ -1,0 +1,42 @@
+<!-- ESTRUTURA
+
+switch(variavel){
+    case VALOR1:
+        comando1;
+        comando2;
+        break;
+    case VALOR2:
+        comando3;
+        break;
+...
+    default:
+    comando4;
+} -->
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var combo = prompt("Qual combo você quer? "); /*ou Number(prompt(" "))*/
+        var combo2 = parseInt(combo);
+          switch (combo2) {
+            case 1:
+              alert("Burguer Refri e Fritas. R$ 20,00");
+              break;
+            case 2:
+              alert("X-burguer Refri e Salada. R$ 22,00");
+              break;
+            case 3:
+              alert("Misto quente, Suco e Salada R$ 15,00");
+              break;
+            default:
+              alert("Escolha um combo de 1 a 3");
+              break;
+      }
+    </script>
+  </body>
+</html>
